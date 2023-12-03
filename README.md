@@ -39,14 +39,14 @@ This sample plugin uses the [Bing Web Search API](https://docs.microsoft.com/en-
 1. Open `appsettings.json` and configure the `kernel` and `aiPlugin` objects.
 
 Configure an OpenAI endpoint
-- Copy [settings.json.openai-example](./config/appsettings.json.openai-example) to `./appsettings.json`
+- Copy [settings.json.openai-example](./azure-function/appsettings.example.json) to `./appsettings.json`
 - Edit the `kernel` object to add your OpenAI endpoint configuration
 - Edit the `aiPlugin` object to define the properties that get exposed in the ai-plugin.json file
 
 'OR'
 
 Configure an Azure OpenAI endpoint
-- Copy [settings.json.azure-example](./config/appsettings.json.azure-example) to `./appsettings.json`
+- Copy [settings.json.azure-example](./azure-function/appsettings.example.json) to `./appsettings.json`
 - Edit the `kernel` object to add your Azure OpenAI endpoint configuration
 - Edit the `aiPlugin` object to define the properties that get exposed in the ai-plugin.json file
 
