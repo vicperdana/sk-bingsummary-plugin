@@ -79,7 +79,7 @@ Swagger is automatically included in the Azure Functions application. To access 
 Run the [Chat Copilot](https://github.com/microsoft/chat-copilot) application. Click the `Plugins` link (top right corner) and enter the following details:
 - Select `Custom Plugin`
 - Select `Add`
-- Enter your website domain: `http://localhost:7071/BingSummariser` and select `Find manifest file`
+- Enter your website domain: `http://localhost:7071/TextSummarize` and select `Find manifest file`
 - In the Verify Plugin prompt, select `Add Plugin`
 - The plugin will now be available in the `Plugins` list
 - Enable the plugin by selecting the `Enable` button
